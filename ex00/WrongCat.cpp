@@ -13,7 +13,7 @@ WrongCat::WrongCat(const WrongCat &src): WrongAnimal(src)
 
 WrongCat& WrongCat::operator=(const WrongCat& other)
 {
-    Animal::operator=(other);
+    WrongAnimal::operator=(other);
     return (*this);
 }
 
