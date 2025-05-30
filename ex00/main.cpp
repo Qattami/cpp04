@@ -20,9 +20,9 @@ int main() {
     j->makeSound();
     i->makeSound();
 
-    // delete meta;
-    // delete j;
-    // delete i;
+    delete meta;
+    delete j;
+    delete i;
 
     std::cout << "=== WrongAnimal and WrongCat Tests ===" << std::endl;
 
@@ -35,7 +35,7 @@ int main() {
     wrongMeta->makeSound();
     wrongCat->makeSound(); 
 
-    // delete wrongMeta;
-    // delete wrongCat;
+    delete wrongMeta;
+    delete wrongCat;
     return 0;
 }
